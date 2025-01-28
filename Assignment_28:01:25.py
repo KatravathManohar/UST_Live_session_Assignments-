@@ -26,8 +26,8 @@ on the options select declare the result
  if it is draw continue the game till one of them gets won
 
 """
-
-"""import os
+1.
+import os
 
 downloads_path = os.path.join(os.path.expanduser('~'), 'Downloads')
 
@@ -43,7 +43,7 @@ for item in os.listdir(downloads_path):
 
 
 
-
+2.
 import string
 
 print("All ASCII letters:", string.ascii_letters)
@@ -51,6 +51,8 @@ print("Lowercase letters:", string.ascii_lowercase)
 print("Uppercase letters:", string.ascii_uppercase)
 
 
+
+3.
 from random import sample
 from string import ascii_letters
 
@@ -62,6 +64,8 @@ print("As a string:", five_letters_string)
 
 
 
+
+4.
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
 
@@ -85,8 +89,12 @@ print("Date after adding 15 days and 23 hours:", new_date)
 # d.Adding 6 months to current date
 current_date = datetime.now()
 six_months_later = current_date + relativedelta(months=6)
-print("Date 6 months from now:", six_months_later.strftime("%d %B %Y"))"""
+print("Date 6 months from now:", six_months_later.strftime("%d %B %Y"))
 
+
+
+
+5.
 import random
 
 def play_game():
