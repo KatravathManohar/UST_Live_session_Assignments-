@@ -17,8 +17,9 @@ Exercise 8: Generate random secure token of 64 bytes and random URL
 
 Exercise 9: Roll dice in such a way that every time you get the same number
 
-Exercise 10: Generate a random date between given start and end dates 
+Exercise 10: Generate a random date between given start and end dates   """
 
+1.
 import random
 
 def generate_divisible_by_5():
@@ -34,6 +35,7 @@ result = generate_divisible_by_5()
 print("3 Random numbers divisible by 5:", result)
 
 
+2.
 import random
 
 def lottery_tickets():
@@ -46,14 +48,14 @@ tickets, winners = lottery_tickets()
 print("Lottery winners:", winners)
 
 
-
+3.
 import random
 
 otp = random.randint(100000, 999999)
 print("OTP:", otp)    
 
 
-
+4.
 import random
 
 input_string = "HelloParagSir"
@@ -61,7 +63,7 @@ random_char = random.choice(input_string)
 print("Random Character:", random_char)  
 
 
-
+5.
 import random
 import string
 
@@ -73,7 +75,7 @@ print("Random String:", random_string)
 
 
 
-
+6.
 import random
 import string
 
@@ -99,7 +101,7 @@ print("Generated Password:", password)
 
 
 
-
+7.
 import random
 
 num1 = random.uniform(1.0, 10.0)  
@@ -109,7 +111,7 @@ print("Multiplication Result:", result)
 
 
 
-
+8.
 import random
 import string
 import urllib.parse
@@ -123,17 +125,17 @@ print("Secure Token:", secure_token)
 print("Random URL:", random_url)      
 
 
-
+9.
 import random
 
 random.seed(42)
 
 dice_roll = random.choice([1, 2, 3, 4, 5, 6])
 
-print("Dice Roll (Same number):", dice_roll)  """
+print("Dice Roll (Same number):", dice_roll)  
 
 
-
+10.
 import random
 from datetime import datetime, timedelta
 
